@@ -21,15 +21,32 @@ body {
 .menu a {
     color: lightslategray;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     padding: 5px 10px;
     letter-spacing: 1px;
+    font-weight: bolder;
 }
 
 .menu a:hover {
     color: black;
     background: lightgray;
     border-radius: 5px;
+}
+
+.menu ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.menu ul li:last-child a {
+    background: lightcoral;
+    color: white;
+    border-radius: 5px;
+}
+
+.menu ul li:last-child a:hover {
+    background: rgb(239, 148, 148);
+    color: white;
 }
 
 .main-container h1{
@@ -47,6 +64,12 @@ body {
     color: lightslategray;
     margin-top: 5px;
     font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container p {
+    color: gray;
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
 }
 
